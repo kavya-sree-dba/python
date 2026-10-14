@@ -1,0 +1,12 @@
+emp_id= input("enter emp id :")
+emp_name=input("enter emp name :")
+basic_sal=input("enter emp basic sal :")
+hra=input("enter emp hra :")
+da=input("enter emp da :")
+gross_sal = basic_sal + hra + da
+print("Employee ID:", emp_id)
+print("Employee Name:", emp_name)
+print("Basic Salary:", basic_sal)
+print("HRA:", hra)
+print("DA:", da)
+print("Gross Salary:", gross_sal)
